@@ -1,4 +1,4 @@
-import { Box, TextField, Button } from '@mui/material'
+/* import { Box, TextField, Button } from '@mui/material'
 import React, { useState } from 'react'
 import { validateEmail, validatePassword } from '../../../helpers/validations';
 
@@ -17,45 +17,6 @@ function UserData(props) {
     }
   });
 
-  /*  function validateEmail(email) {
-     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-     if (emailRegex.test(email)) {
-       return {
-         ...errors,
-         email: {
-           error: false,
-           message: '',
-         },
-       };
-     } else {
-       return {
-         ...errors,
-         email: {
-           error: true,
-           message: 'No se reconoce como un correo válido',
-         },
-       };
-     }
-   }
-   function validatePassword(password) {
-     if (password.length >= 8) {
-       return {
-         ...errors,
-         password: {
-           error: false,
-           message: ''
-         }
-       }
-     } else {
-       return {
-         ...errors,
-         password: {
-           error: true,
-           message: "Password must contain at least 8 characters "
-         }
-       }
-     }
-   } */
   const handleSumbit = (e) => {
     e.preventDefault();
     if (errors.email.error === false && errors.password.error === false) {
@@ -115,4 +76,4 @@ function UserData(props) {
   )
 }
 
-export default UserData
+export default UserData */

@@ -25,7 +25,7 @@ function DeliveryData({ updateStep }) {
         }
     }
 
-    const handlerAddressBlus = (e) => {
+    const handlerAddressBlurx = (e) => {
         const addressValidate = validateAddrees(e.target.value)
         setErrors({ ...errors, address: addressValidate })
     }
@@ -58,7 +58,7 @@ function DeliveryData({ updateStep }) {
                     const address = e.target.value
                     setAddress(address)
                 }}
-                onBlur={handlerAddressBlus}
+                onBlur={handlerAddressBlurx}
             />
             <TextField
                 required
